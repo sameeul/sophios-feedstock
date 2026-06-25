@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/PolusAI/workflow-inference-compiler/archive/refs/tags/v{{ version }}.tar.gz
+  url: https://github.com/PolusAI/sophios/archive/refs/tags/v{{ version }}.tar.gz
   sha256: cafead1cf0da4c97d149bc11b97d834a1c67362c77de6ff515b111e512224041
 
 build:
@@ -58,7 +58,7 @@ test:
 about:
   home: https://pypi.org/project/sophios/
   summary: DSL for inferring the edges of a CWL workflow DAG
-  dev_url: https://github.com/PolusAI/workflow-inference-compiler
+  dev_url: https://github.com/PolusAI/sophios
   license: MIT
   license_file: LICENSE
 
